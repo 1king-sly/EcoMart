@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ecommerce-api"
+version = "0.1.0"
+description = "FastAPI backend for e-commerce system"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.1"
+sqlalchemy = "^2.0.28"
+pydantic = "^2.6.3"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-multipart = "^0.0.9"
+alembic = "^1.13.1"
+python-dotenv = "^1.0.1"
+requests = "^2.31.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0.0"
+black = "^24.2.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
