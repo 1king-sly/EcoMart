@@ -47,7 +47,7 @@ const routes = [
   {
     label: "Analytics",
     icon: BarChart,
-    href: "/admin/analytics",
+    href: "/admin/",
     color: "text-yellow-700",
   },
   {
