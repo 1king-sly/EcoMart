@@ -47,13 +47,13 @@ const routes = [
   {
     label: "Analytics",
     icon: BarChart,
-    href: "/admin/",
+    href: "/admin/analytics",
     color: "text-yellow-700",
   },
   {
     label: "Settings",
     icon: Settings,
-    href: "/admin/",
+    href: "/admin/settings",
     color: "text-gray-700",
   },
 ];

@@ -1,26 +1,18 @@
-// import { StoreSettings } from "@/components/admin/settings/store";
-// import { PaymentSettings } from "@/components/admin/settings/payment";
-// import { ShippingSettings } from "@/components/admin/settings/shipping";
-// import { NotificationSettings } from "@/components/admin/settings/notifications";
+import { StoreSettings } from "@/components/admin/settings/store";
+import { PaymentSettings } from "@/components/admin/settings/payment";
+import { ShippingSettings } from "@/components/admin/settings/shipping";
+import { NotificationSettings } from "@/components/admin/settings/notifications";
 
-// export default function SettingsPage() {
-//   return (
-//     <div className="space-y-8">
-//       <h1 className="text-3xl font-bold">Settings</h1>
-//       <div className="space-y-6">
-//         <StoreSettings />
-//         <PaymentSettings />
-//         <ShippingSettings />
-//         <NotificationSettings />
-//       </div>
-//     </div>
-//   );
-// }
-
-import React from 'react'
-
-export default function page() {
+export default function SettingsPage() {
   return (
-    <div>page</div>
-  )
+    <div className="space-y-8">
+      <h1 className="text-3xl font-bold">Settings</h1>
+      <div className="space-y-6 overflow-hidden">
+        <StoreSettings />
+        <PaymentSettings />
+        <ShippingSettings />
+        <NotificationSettings />
+      </div>
+    </div>
+  );
 }
